@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imv_user"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="109dp"
+        android:layout_marginTop="42dp"
+        android:layout_marginEnd="102dp"
+        app:srcCompat="@drawable/p1" />
+
+    <EditText
+        android:id="@+id/ed_email"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="356dp"
+        android:background="#11000000"
+        android:drawableLeft="@drawable/ic_action_name"
+        android:drawablePadding="10dp"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:padding="10dp"
+        android:textColor="#ffffff" />
+
+    <EditText
+        android:id="@+id/ed_password"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="279dp"
+        android:background="#11000000"
+        android:drawableLeft="@drawable/ic_password"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:padding="10dp"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        android:drawablePadding="10dp"/>
+
+    <Button
+        android:id="@+id/btnlogin"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="168dp"
+        android:background="@drawable/button_rectangle_red"
+        android:text="Login"
+        android:textColor="#ffffff"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tv_register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="121dp"
+        android:textSize="15sp"
+        android:layout_marginTop="20dp"
+        android:text="Register"
+        android:textColor="#ffffff"/>
+
+
+</RelativeLayout>

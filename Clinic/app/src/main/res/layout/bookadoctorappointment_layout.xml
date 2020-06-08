@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/editText_search"
+        android:layout_width="375dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="15dp"
+        android:background="#11000000"
+        android:drawableLeft="@drawable/ic_search"
+        android:drawablePadding="10dp"
+        android:ems="10"
+        android:hint="Search for Specialties"
+        android:inputType="textPersonName"
+        android:paddingLeft="15dp" />
+
+    <ListView
+        android:id="@+id/listview_item"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="10dp"
+        android:padding="10dp"
+        android:textColor="#ffffff"
+        />
+</LinearLayout>

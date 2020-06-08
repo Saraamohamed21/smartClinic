@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Clinic</string>
+    <string-array name="Specialties">
+        <item>Dentisty</item>
+        <item>psychiatry</item>
+        <item>Ear, Noise and Throat</item>
+        <item>Cardiology and Immunology</item>
+        <item>Chest and Respiratory</item>
+        <item>dermatology</item>
+        <item>Pediatrics and New Born</item>
+        <item>Neurology</item>
+        <item>Gynaecology and Infertility</item>
+        <item>Allergy and Immunology</item>
+        <item>Dentisty</item>
+        <item>psychiatry</item>
+        <item>Ear, Noise and Throat</item>
+        <item>Cardiology and Immunology</item>
+        <item>Chest and Respiratory</item>
+        <item>dermatology</item>
+        <item>Pediatrics and New Born</item>
+        <item>Neurology</item>
+        <item>Gynaecology and Infertility</item>
+        <item>Allergy and Immunology</item>
+
+    </string-array>
+</resources>
